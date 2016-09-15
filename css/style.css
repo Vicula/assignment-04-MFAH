@@ -109,6 +109,7 @@ header {
    color: #478AC3;
    font-weight: bold;
 }
+
 .s1p3 {
    font-size: 12px;
 }
@@ -120,6 +121,18 @@ header {
    display: inline-block;
    width: 50%;
 }
+.s2p1 {
+   font-size: 10px;
+   color: gray;
+}
+.s2p2 {
+   color: #478AC3;
+   font-weight: bold;
+}
+
+.s2p3 {
+   font-size: 12px;
+}
 .s3-1 {
    display: inline-block;
    width:30%;
@@ -127,6 +140,18 @@ header {
 .s3-2 {
    display: inline-block;
    width: 50%;
+}
+.s3p1 {
+   font-size: 10px;
+   color: gray;
+}
+.s3p2 {
+   color: #478AC3;
+   font-weight: bold;
+}
+
+.s3p3 {
+   font-size: 12px;
 }
 .rightbox > p {
    text-align: right;
