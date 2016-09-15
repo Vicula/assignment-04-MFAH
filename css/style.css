@@ -1,0 +1,149 @@
+* {
+   box-sizing: border-box;
+}
+img {
+   display: block;
+   width: 100%;
+}
+body {
+   margin:0;
+}
+header {
+   width: 100%;
+   font-size: 0;
+   background: #2F2F2F;
+}
+.logo{
+   display: inline-block;
+   width: 15%;
+}
+.name {
+   display: inline-block;
+   width: 53%;
+}
+.leftbox {
+   display: inline-block;
+   width: 70%;
+   line-height: 1.5;
+}
+.rightbox {
+   display: inline-block;
+   vertical-align: top;
+}
+.leftbox hr{
+   width: 100%;
+   color: rgb(244, 244, 244);
+}
+.title {
+   margin-left: 30px;
+}
+.p1 {
+   margin-left: 30px;
+}
+.p1 p {
+   padding-bottom: 10px;
+   margin-top: 0px;
+}
+.p2 {
+   margin-left: 30px;
+}
+.p2 p{
+   padding-bottom: 10px;
+   margin-top: 0px;
+}
+.p3 {
+   margin-left: 30px;
+}
+.p3r img{
+   float: right;
+   width: 50%;
+}
+.p3l p{
+
+   width: 50%;
+}
+.p4 {
+   margin-left: 30px;
+}
+.p4r img{
+   float: left;
+   width: 50%;
+}
+.p4l p{
+
+   width: 50%;
+}
+.rightbox {
+   margin-left: 20px;
+   width: 250px;
+}
+.rightbox hr{
+   width: 100%;
+   color: rgb(244, 244, 244);
+   border-style: dotted;
+   border-width: medium;
+}
+.s1-1 {
+   display: inline-block;
+   width:35%;
+}
+.s1-2 {
+   display: inline-block;
+   width: 50%;
+}
+.s2-1 {
+   display: inline-block;
+   width:35%;
+}
+.s2-2 {
+   display: inline-block;
+   width: 50%;
+}
+.s3-1 {
+   display: inline-block;
+   width:40%;
+}
+.s3-2 {
+   display: inline-block;
+   width: 50%;
+}
+.rightbox > p {
+   text-align: right;
+}
+.title {
+   font-size: 22px;
+}
+footer {
+   width: 100%;
+   font-size: 0;
+   margin-left: 20px;
+   margin-right: 35px;
+
+}
+footer hr {
+   width: 100%;
+}
+.f1 {
+   display: inline-block;
+   font-size: 15px;
+   width: 25%;
+}
+.f2 {
+   display: inline-block;
+   font-size: 15px;
+   width: 25%;
+}
+.f3 {
+   display: inline-block;
+   font-size: 15px;
+   width: 25%;
+}
+.f4 {
+   display: inline-block;
+   font-size: 15px;
+   width: 25%;
+}
+h2 {
+   font-size: 38px;
+   margin-bottom: 0px;
+}
