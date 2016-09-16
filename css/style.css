@@ -100,6 +100,7 @@ header {
    display: inline-block;
    width: 65%;
    margin-bottom: 20px;
+   vertical-align: top;
 
 }
 .s1p1{
@@ -274,18 +275,56 @@ body {
 .appcontainer {
    background:white;
 }
-@media only screen and (maxwidth: 768px) {
+
+@media only screen and (max-width: 768px) {
+   .search-box {
+      visibility: hidden;
+   }
+   body {
+      padding: 0;
+   }
    div {
       display: block;
-
    }
-   .p3r img{
-      width: 70%
+   .p3r img {
+      margin: auto;
+      float: none;
+      width: 70%;
 
    }
    .p4l img {
-      width: 70%
+      float: none;
+      margin: auto;
+      width: 60%;
    }
+   .p4r p {
+      float: none;
+      margin:0;
+      width: 100%;
+   }
+   .bot-link {
+      text-align: center;
+   }
+   .f1 {
+      display: block;
+   }
+   .f2 {
+      display: block;
+   }
+   .f3 {
+      display: block;
+   }
+   .f4 {
+      display: block;
+   }
+   .body-box {
+      text-align: center;
+   }
+   .p3l p {
+      margin: 0;
+      width: 100%
+   }
+   
 }
 .search-box {
    position: fixed;
