@@ -282,6 +282,7 @@ body {
    }
    body {
       padding: 0;
+
    }
    div {
       display: block;
@@ -289,13 +290,13 @@ body {
    .p3r img {
       margin: auto;
       float: none;
-      width: 70%;
+      width: 100%;
 
    }
    .p4l img {
       float: none;
       margin: auto;
-      width: 60%;
+      width: 100%;
    }
    .p4r p {
       float: none;
@@ -303,28 +304,54 @@ body {
       width: 100%;
    }
    .bot-link {
-      text-align: center;
+      text-align: right;
+      padding-right: 15px;
    }
    .f1 {
       display: block;
+      width: 100%;
    }
    .f2 {
       display: block;
+      width: 100%;
    }
    .f3 {
       display: block;
+      width: 100%;
    }
    .f4 {
       display: block;
+      width: 100%;
    }
    .body-box {
-      text-align: center;
+      text-align: left;
    }
    .p3l p {
       margin: 0;
       width: 100%
    }
-   
+   h1 {
+      font-size: 25px;
+   }
+   h2 {
+      font-size: 22px;
+   }
+   .leftbox {
+      width:95%;
+   }
+   .rightbox {
+      width: 95%;
+   }
+   .rightbox img {
+      width: 20%;
+   }
+   footer {
+      text-align: left;
+   }
+   .name {
+      visibility: hidden;
+   }
+
 }
 .search-box {
    position: fixed;
