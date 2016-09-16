@@ -223,6 +223,7 @@ h3 {
    background: #F2F2F2;
    margin: 25px;
    border-radius: 10px;
+
 }
 
 .nav-bar button {
@@ -285,4 +286,28 @@ body {
    .p4l img {
       width: 70%
    }
+}
+.search-box {
+   position: fixed;
+   right: 20px;
+   bottom: 60px;
+   background: #3A539B;
+   width: 250px;
+}
+.search-box form {
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.search-box input {
+   width: 30%;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+.search-box h6 {
+   color: white;
+}
+.search-box button {
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
 }
