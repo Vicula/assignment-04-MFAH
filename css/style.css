@@ -292,22 +292,44 @@ body {
    right: 20px;
    bottom: 60px;
    background: #3A539B;
-   width: 250px;
+   width: 300px;
+   padding-top: 12px;
+   padding-bottom: 5px;
 }
 .search-box form {
    padding-bottom: 10px;
    padding-left: 10px;
    padding-right: 10px;
+   font-size: 0;
+   margin-top: 15px;
 }
 .search-box input {
-   width: 30%;
+   width: 88%;
    border-top-left-radius: 5px;
    border-bottom-left-radius: 5px;
+
+   height: 100%;
+
 }
 .search-box h6 {
    color: white;
+   margin: 8px;
+   margin-left: 15px;
+   font-size: 12px;
+   font-weight: normal;
 }
 .search-box button {
-   border-top-right-radius: 0px;
-   border-bottom-right-radius: 0px;
+   border-width: 1px;
+   border-left-width: 0px;
+   height: 100%;
+   background: rgb(235, 232, 233);
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+
+}
+.icon {
+   color: rgb(215, 52, 58);
+}
+.search-box br {
+
 }
