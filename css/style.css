@@ -227,8 +227,8 @@ h3 {
 
 }
 
-.nav-bar button {
-   color: #478AC3;
+.regbut {
+   color: #000;
    background: #FF9999;
    border: 0;
    border-left: 1px black solid;
@@ -264,7 +264,12 @@ a {
    margin-left: 5px;
 }
 .herebut {
-   color: gray;
+   background: #bfbfbf;
+   color: #000;
+   border: 0;
+   border-left: 1px black solid;
+   font-size: 15px;
+   margin: 2px;
 }
 
 body {
@@ -274,6 +279,19 @@ body {
 }
 .appcontainer {
    background:white;
+}
+.bars {
+   float: right;
+   margin: 15px 10px;
+   border-color: gray;
+   width: 5%;
+   visibility: hidden;
+
+
+}
+.bars button {
+   color: white;
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -350,6 +368,33 @@ body {
    }
    .name {
       visibility: hidden;
+   }
+   .nav-bar button {
+      width: 95%;
+      text-align: left;
+      margin: 0;
+   }
+   .nav-bar {
+      margin: 0;
+   }
+   header {
+      height: 50px;
+   }
+   header img {
+      height: 30px;
+      margin: auto 0px;
+   }
+   .logo {
+      width: 90px;
+      margin: 10px 0px;
+      margin-left:20px;
+   }
+   .bars {
+      visibility: visible;
+
+   }
+   .nav-bar {
+      border-radius: 0;
    }
 
 }
